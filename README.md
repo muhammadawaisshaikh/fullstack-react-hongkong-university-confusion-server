@@ -9,3 +9,22 @@ express confusionServer
 
 # hitting Postman
 localhost:3000/dishes
+
+# install mondodb
+www.mongodb.com
+
+# setup init
+- Create mongodb folder in project root
+$ mongod --dbpath=data --bind_ip 127.0.0.1
+
+# open other terminal
+$ mongo
+$ db
+$ use DB_NAME
+$ db
+
+# mongoDB insert Test command
+db.dishes.insert({"name": "Uthapizza", "description": "Test"});
+
+# mongoDB find
+db.dishes.find()
