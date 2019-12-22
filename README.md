@@ -28,3 +28,9 @@ db.dishes.insert({"name": "Uthapizza", "description": "Test"});
 
 # mongoDB find
 db.dishes.find()
+
+# make new NODEJS APP that will interact with mongoDB instance
+- create directory named /node-mongo
+- init with MongoClient
+- init DB operations js file to write CRUD dynamic methods widely used in app
+- write CRUD and be on AIR #bamboo
