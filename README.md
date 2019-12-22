@@ -6,3 +6,6 @@ sudo npm install -g express-generator@4.16.0
 
 # init server
 express confusionServer
+
+# hitting Postman
+localhost:3000/dishes
