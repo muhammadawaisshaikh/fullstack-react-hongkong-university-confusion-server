@@ -1,6 +1,11 @@
 # fullstack-react-hongkong-university-confusion-server
 build server using express generator
 
+# hierarchy
+- Server (confusionServer) - to init the server
+- DB instance (mongodb) - to store json documents
+- NODEJS App (node-mongo) - app that will interact with our server
+
 # express generator
 sudo npm install -g express-generator@4.16.0
 
