@@ -7,7 +7,7 @@ const dbname = 'conFusion1';
 
 MongoClient.connect(url).then((client) => {
 
-    assert.equal(err,null);
+    // assert.equal(err, null);
 
     console.log('Connected correctly to server');
 
