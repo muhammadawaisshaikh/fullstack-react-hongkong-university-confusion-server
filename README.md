@@ -9,6 +9,10 @@ build server using express generator
 # express generator
 sudo npm install -g express-generator@4.16.0
 
+# mongoose
+npm install mongoose --save
+npm install mongoose-currency --save
+
 # init server
 express confusionServer
 
@@ -17,12 +21,13 @@ localhost:3000/dishes
 
 # install mondodb
 www.mongodb.com
+https://www.mongodb.com/try/download/tools
 
-# setup init
+# setup init - Ubuntu
 - Create mongodb folder in project root
 $ mongod --dbpath=data --bind_ip 127.0.0.1
 
-# open other terminal
+# open other terminal - Ubuntu
 $ mongo
 $ db
 $ use DB_NAME
