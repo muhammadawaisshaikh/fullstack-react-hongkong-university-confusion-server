@@ -2,16 +2,25 @@
 build server using express generator
 
 # hierarchy
-- Server (confusionServer) - to init the server
+- Server (confusionServer) - to init the server (REST API)
 - DB instance (mongodb) - to store json documents
 - NODEJS App (node-mongo) - app that will interact with our server
 
 # express generator
 sudo npm install -g express-generator@4.16.0
 
+# morgan (Logger)
+npm install morgan --save
+
 # mongoose
 npm install mongoose --save
 npm install mongoose-currency --save
+
+# cookie-parser
+npm install cookie-parser@1.4.3 --save
+
+# express-session
+npm install express-session@1.15.6 session-file-store@1.2.0 --save
 
 # init server
 express confusionServer
@@ -23,7 +32,7 @@ localhost:3000/dishes
 www.mongodb.com
 https://www.mongodb.com/try/download/tools
 
-# setup init - Ubuntu
+# setup init mongodb - Ubuntu
 - Create mongodb folder in project root
 $ mongod --dbpath=data --bind_ip 127.0.0.1
 
