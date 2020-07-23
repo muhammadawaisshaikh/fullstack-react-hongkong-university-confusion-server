@@ -25,6 +25,9 @@ npm install express-session@1.15.6 session-file-store@1.2.0 --save
 # Passport - Authentication
 npm install passport@0.4.0 passport-local@1.0.0 passport-local-mongoose@5.0.1 --save
 
+# Passport JWT - Authentication
+npm install passport-jwt@4.0.0 jsonwebtoken@8.3.0 --save
+
 # init server
 express confusionServer
 
