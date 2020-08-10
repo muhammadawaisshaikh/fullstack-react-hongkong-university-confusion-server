@@ -33,7 +33,10 @@ npm install --save cors
 npm install cors@2.8.4 --save
 
 # passport facebook authentication
- npm install passport-facebook-token@3.3.0 --save
+npm install passport-facebook-token@3.3.0 --save
+
+# After passport facebook authentication implementation go on below url to login with facebook:
+http://localhost:3000/index.html
 
 # init server
 express confusionServer
