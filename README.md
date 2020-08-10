@@ -32,6 +32,9 @@ npm install passport-jwt@4.0.0 jsonwebtoken@8.3.0 --save
 npm install --save cors
 npm install cors@2.8.4 --save
 
+# passport facebook authentication
+ npm install passport-facebook-token@3.3.0 --save
+
 # init server
 express confusionServer
 
