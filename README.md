@@ -30,6 +30,7 @@ npm install passport-jwt@4.0.0 jsonwebtoken@8.3.0 --save
 
 # CORS
 npm install --save cors
+npm install cors@2.8.4 --save
 
 # init server
 express confusionServer
@@ -62,3 +63,6 @@ db.dishes.find()
 - init with MongoClient
 - init DB operations js file to write CRUD dynamic methods widely used in app
 - write CRUD and be on AIR #bamboo
+
+# Postman Collection
+https://www.getpostman.com/collections/15b3eeab1bd9f95825c4
