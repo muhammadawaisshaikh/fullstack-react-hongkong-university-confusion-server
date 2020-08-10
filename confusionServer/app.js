@@ -17,6 +17,8 @@ const mongoose = require('mongoose');
 const url = config.mongoUrl;
 const connect = mongoose.connect(url);
 
+const uploadRouter = require('./routes/uploadRouter');
+
 connect.then((db) => {
   console.log('COnnected To Server Success.');
 },
@@ -41,6 +43,8 @@ app.use(passport.session());
 app.use('/', indexRouter);
 
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use('/imageUpload',uploadRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
